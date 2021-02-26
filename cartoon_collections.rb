@@ -14,7 +14,7 @@ end
 
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"].join(", ")
-  snacks.map do |food| food.include? cheese_types
+  snacks.collect do |food| food.include? cheese_types
 
 
 end
